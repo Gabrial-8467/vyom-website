@@ -9,12 +9,12 @@ const Button = ({
   className = '',
   ...props 
 }) => {
-  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900'
+  const baseClasses = 'inline-flex items-center justify-center font-medium rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 transform hover:scale-105'
   
   const variants = {
-    primary: 'bg-orange-600 text-white hover:bg-orange-700 focus:ring-orange-500',
-    secondary: 'bg-gray-700 text-gray-300 hover:bg-gray-600 focus:ring-gray-500',
-    outline: 'border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white focus:ring-orange-500',
+    primary: 'bg-orange-600 text-white hover:bg-orange-700 focus:ring-orange-500 hover:shadow-lg hover:shadow-orange-500/25',
+    secondary: 'bg-gray-700 text-gray-300 hover:bg-gray-600 focus:ring-gray-500 hover:shadow-lg hover:shadow-gray-500/25',
+    outline: 'border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white focus:ring-orange-500 hover:shadow-lg hover:shadow-orange-500/25',
     ghost: 'text-gray-300 hover:text-orange-500 hover:bg-gray-800 focus:ring-orange-500'
   }
   

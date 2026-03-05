@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-900 text-white">
         <Header />
-        <main>
+        <main className="animate-fadeIn">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/docs" element={<DocumentationPage />} />
