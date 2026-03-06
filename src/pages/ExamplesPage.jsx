@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Copy, Check, Play, Code } from 'lucide-react'
+import PageSEO from '../components/PageSEO'
 
 const ExamplesPage = () => {
   const [copiedCode, setCopiedCode] = useState(null)
@@ -388,7 +389,14 @@ Promise scheduled.`
   }
 
   return (
-    <section id="examples" className="min-h-screen bg-gray-900 pt-24 pb-16">
+    <>
+      <PageSEO
+        title="Code Examples - Learn Falcon Programming Language"
+        description="Explore Falcon programming language through practical code examples. From beginner Hello World to advanced closures, error handling, and async patterns. Learn by doing with interactive examples."
+        keywords="Falcon examples, programming language examples, Falcon code samples, learn Falcon programming, programming language tutorial, code examples"
+        canonicalUrl="/examples"
+      />
+      <section id="examples" className="min-h-screen bg-gray-900 pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Code Examples</h1>
@@ -470,6 +478,7 @@ Promise scheduled.`
         </div>
       </div>
     </section>
+    </>
   )
 }
 

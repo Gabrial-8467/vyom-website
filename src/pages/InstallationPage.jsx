@@ -1,9 +1,17 @@
 import { Download, Monitor, Play, CheckCircle, FileText } from 'lucide-react'
 import Button from '../components/Button'
+import PageSEO from '../components/PageSEO'
 
 const InstallationPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-24">
+    <>
+      <PageSEO
+        title="Installation - Download Falcon Programming Language"
+        description="Download and install Falcon programming language on Windows. Get the official installer with compiler, VM, REPL, and development tools. Start coding in minutes."
+        keywords="Falcon installation, download Falcon programming language, Falcon compiler, Falcon VM, install Falcon Windows, programming language download"
+        canonicalUrl="/install"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fadeInUp">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -224,7 +232,8 @@ const InstallationPage = () => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
 

@@ -1,0 +1,28 @@
+{
+  "name": "Falcon Programming Language",
+  "short_name": "Falcon",
+  "description": "A modern, lightweight programming language with hybrid execution model",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/minfnlogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/minfnlogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["developer", "education", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

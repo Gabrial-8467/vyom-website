@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, ChevronRight, Book, Code, FileText } from 'lucide-react'
+import PageSEO from '../components/PageSEO'
 
 const DocumentationPage = () => {
   const [expandedSections, setExpandedSections] = useState(['syntax', 'variables', 'functions', 'easy'])
@@ -403,7 +404,14 @@ show("Promise scheduled.");`
   ]
 
   return (
-    <section id="docs" className="min-h-screen bg-gray-900 pt-24 pb-16">
+    <>
+      <PageSEO
+        title="Documentation - Complete Guide to Falcon Programming Language"
+        description="Comprehensive Falcon programming language documentation covering syntax, variables, functions, control flow, operators, and built-in functions. Learn Falcon with examples and tutorials."
+        keywords="Falcon documentation, programming language guide, Falcon syntax, Falcon functions, Falcon variables, programming language tutorial, learn Falcon programming"
+        canonicalUrl="/docs"
+      />
+      <section id="docs" className="min-h-screen bg-gray-900 pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Documentation</h1>
@@ -454,6 +462,7 @@ show("Promise scheduled.");`
         </div>
       </div>
     </section>
+    </>
   )
 }
 
