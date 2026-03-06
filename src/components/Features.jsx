@@ -61,19 +61,19 @@ show(a && b);  // true`
   return (
     <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 animate-fadeInUp">
+        <header className="text-center mb-16 animate-fadeInUp">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Highlights (v1.0.0)
+            Falcon Programming Language Features (v1.0.0)
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Falcon combines the best of compiled and interpreted languages 
-            with modern syntax and powerful features (v1.0.0).
+            Discover why Falcon is the perfect modern programming language for your next project. 
+            Experience the power of hybrid execution with clean, expressive syntax.
           </p>
-        </div>
+        </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div
+            <article
               key={feature.title}
               className={`bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover-lift ${
                 index % 3 === 0 ? 'animate-fadeInLeft' : 
@@ -97,7 +97,7 @@ show(a && b);  // true`
                   <code>{feature.code}</code>
                 </pre>
               </div>
-            </div>
+            </article>
           ))}
         </div>
 

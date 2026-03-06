@@ -20,7 +20,7 @@ const Header = () => {
             <div className="flex-shrink-0 flex items-center">
               <img 
                 src="/minfnlogo.png" 
-                alt="Falcon Logo" 
+                alt="Falcon Programming Language Logo" 
                 className="h-16 w-auto mr-3 rounded-lg transition-all duration-300" 
               />
               <h1 className="text-2xl font-bold text-orange-500 text-gradient-animate">Falcon</h1>

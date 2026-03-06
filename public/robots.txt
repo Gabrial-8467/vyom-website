@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Allow search engines to crawl all pages
+Allow: /docs
+Allow: /install
+Allow: /examples
+Allow: /minfnlogo.png
+
+# Block common non-content directories
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /.git/
+Disallow: /*.json$
+Disallow: /*.jsx$
+Disallow: /*.css$
+
+# Sitemap location
+Sitemap: https://falcon-lang.com/sitemap.xml
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
