@@ -30,7 +30,7 @@ Hello, World!`
     },
     {
       id: 'easy-custom',
-      title: 'Easy Custom Syntax',
+      title: 'Easy Syntax',
       description: 'Demonstrates Falcon\'s easy-to-read custom syntax with aliases',
       difficulty: 'Beginner',
       code: `set count = 0
