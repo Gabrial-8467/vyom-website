@@ -29,7 +29,7 @@ show(greet("World"));`,
 Hello, World!`
     },
     {
-      id: 'easy-Syntax',
+      id: 'easy-custom',
       title: 'Easy Syntax',
       description: 'Demonstrates Falcon\'s easy-to-read custom syntax with aliases',
       difficulty: 'Beginner',
