@@ -19,11 +19,13 @@ const Header = () => {
           <div className="flex items-center animate-fadeInLeft">
             <div className="flex-shrink-0 flex items-center">
               <img 
-                src="/minfnlogo.png" 
-                alt="Falcon Programming Language Logo" 
+                src="/vyom.png" 
+                alt="Vyom Programming Language Logo" 
                 className="h-16 w-auto mr-3 rounded-lg transition-all duration-300" 
               />
-              <h1 className="text-2xl font-bold text-orange-500 text-gradient-animate">Falcon</h1>
+              <a href="/" className="text-2xl font-bold text-white hover:text-orange-500 transition-colors">
+                Vyom
+              </a>
             </div>
           </div>
 

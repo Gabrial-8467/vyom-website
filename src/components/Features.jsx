@@ -29,7 +29,7 @@ fn add(a, b) { give a + b; }`
       title: "Rich Collection Types",
       description: "Support for lists, tuples, dictionaries, sets, and arrays with comprehensive member access.",
       code: `set lst = [1, 2, 3];
-set obj = { name: "Falcon" };
+set obj = { name: "Vyom" };
 show(obj.name);`
     },
     {
@@ -63,10 +63,10 @@ show(a && b);  // true`
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="text-center mb-16 animate-fadeInUp">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Falcon Programming Language Features (v1.0.0)
+            Vyom Programming Language Features (v1.0.0)
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Discover why Falcon is the perfect modern programming language for your next project. 
+            Discover why Vyom is the perfect modern programming language for your next project. 
             Experience the power of hybrid execution with clean, expressive syntax.
           </p>
         </header>
@@ -88,10 +88,9 @@ show(a && b);  // true`
                 {feature.title}
               </h3>
               
-              <p className="text-gray-300 text-sm mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed">
                 {feature.description}
               </p>
-              
               <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-600">
                 <pre className="text-green-400 text-xs font-mono overflow-x-auto">
                   <code>{feature.code}</code>

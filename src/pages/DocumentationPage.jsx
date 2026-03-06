@@ -19,7 +19,7 @@ const DocumentationPage = () => {
       title: 'Language Syntax',
       icon: <Book size={20} />,
       content: {
-        description: 'Falcon supports a clean, modern syntax with `fn` as the primary function declaration keyword.',
+        description: 'Vyom supports a clean, modern syntax with `fn` as the primary function declaration keyword.',
         examples: [
           {
             title: 'Variable Declarations',
@@ -50,12 +50,12 @@ x = x + 5;`
       title: 'Variables & Types',
       icon: <FileText size={20} />,
       content: {
-        description: 'Falcon supports dynamic typing with optional type annotations for runtime checking.',
+        description: 'Vyom supports dynamic typing with optional type annotations for runtime checking.',
         examples: [
           {
             title: 'Type Annotations',
             code: `set count: int = 3;
-set title: string = "Falcon";
+set title: string = "Vyom";
 const enabled: bool = true;
 
 fn add(a: int, b: int): int {
@@ -79,7 +79,7 @@ set lst = [1, 2, 3];
 set tpl = (1, 2, 3);
 
 // Dictionary / Object
-set obj = { name: "Falcon", version: 0.3 };
+set obj = { name: "Vyom", version: 0.3 };
 
 // Set
 set s = set{1, 2, 3};
@@ -89,7 +89,7 @@ set arr = array[5];
 
 // Subscript and member access
 show(lst[0]);        // 1
-show(obj.name);      // "Falcon"
+show(obj.name);      // "Vyom"
 show(obj["version"]); // 0.3`
           }
         ]
@@ -236,7 +236,7 @@ show(classifyUser({ foo: "bar" }));`
       title: 'Easy Custom Syntax',
       icon: <Code size={20} />,
       content: {
-        description: 'Falcon supports an easy custom style with `fn` as the primary function declaration and helpful keyword aliases.',
+        description: 'Vyom supports an easy custom style with `fn` as the primary function declaration and helpful keyword aliases.',
         examples: [
           {
             title: 'Keyword Aliases',
@@ -266,7 +266,7 @@ loop count < 3 {
           },
           {
             title: 'Traditional vs Easy Syntax',
-            code: `// Standard Falcon syntax (recommended)
+            code: `// Standard Vyom syntax (recommended)
 fn greet(name) {
     give "Hello, " + name + "!";
 }
@@ -348,7 +348,7 @@ when (x > 0 && y < 10) {
           {
             title: 'Output Functions',
             code: `// Print to console
-show("Hello, Falcon!");
+show("Hello, Vyom!");
 console.log("Debug message");
 
 // Formatted output
@@ -406,9 +406,9 @@ show("Promise scheduled.");`
   return (
     <>
       <PageSEO
-        title="Documentation - Complete Guide to Falcon Programming Language"
-        description="Comprehensive Falcon programming language documentation covering syntax, variables, functions, control flow, operators, and built-in functions. Learn Falcon with examples and tutorials."
-        keywords="Falcon documentation, programming language guide, Falcon syntax, Falcon functions, Falcon variables, programming language tutorial, learn Falcon programming"
+        title="Documentation - Vyom Programming Language Guide"
+        description="Complete Vyom programming language documentation. Learn syntax, features, and best practices. Comprehensive guide for beginners and advanced developers."
+        keywords="Vyom documentation, Vyom programming guide, Vyom language reference, Vyom syntax, Vyom tutorial, programming language documentation"
         canonicalUrl="/docs"
       />
       <section id="docs" className="min-h-screen bg-gray-900 pt-24 pb-16">
@@ -416,7 +416,7 @@ show("Promise scheduled.");`
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Documentation</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Complete guide to Falcon programming language features and syntax
+            Complete guide to Vyom programming language features and syntax
           </p>
         </div>
 

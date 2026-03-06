@@ -5,7 +5,7 @@ Allow: /
 Allow: /docs
 Allow: /install
 Allow: /examples
-Allow: /minfnlogo.png
+Allow: /vyom.png
 
 # Block common non-content directories
 Disallow: /node_modules/
@@ -16,7 +16,7 @@ Disallow: /*.jsx$
 Disallow: /*.css$
 
 # Sitemap location
-Sitemap: https://falcon-lang.com/sitemap.xml
+Sitemap: https://vyom-lang.com/sitemap.xml
 
 # Crawl delay (optional - be nice to servers)
 Crawl-delay: 1

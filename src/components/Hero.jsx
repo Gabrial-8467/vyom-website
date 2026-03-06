@@ -8,23 +8,23 @@ const Hero = () => {
         <header className="mb-8">
           <div className="inline-flex items-center justify-center mb-6 animate-fadeInDown">
             <img 
-              src="/minfnlogo.png" 
-              alt="Falcon Programming Language Logo - Modern Lightweight Language" 
+              src="/vyom.png" 
+              alt="Vyom Programming Language Logo - Modern Lightweight Language" 
               className="h-48 w-auto animate-float rounded-xl transition-all duration-300" 
             />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fadeInUp animate-delay-200">
-            Falcon Programming Language
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fadeInUp animate-delay-200">
+            Welcome to Vyom
           </h1>
           <p className="text-xl md:text-2xl text-orange-500 font-semibold mb-4 animate-fadeInUp animate-delay-300">
             A Modern Lightweight Programming Language for Developers
           </p>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8 animate-fadeInUp animate-delay-400">
             Expressive syntax with hybrid execution model. Perfect for both experimental projects 
-            and production applications. Learn Falcon programming language with our comprehensive 
+            and production applications. Learn Vyom programming language with our comprehensive 
             documentation and examples.
             <br />
-            <span className="text-orange-400 font-semibold">Small language. Big possibilities.</span>
+            <span className="text-orange-500">Vyom</span> is a modern, lightweight programming language designed for simplicity and performance.
           </p>
         </header>
 
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             <h3 className="text-white font-semibold mb-2">Easy to Learn Programming Language</h3>
             <p className="text-gray-300 text-sm">
-              Clean syntax and predictable semantics make Falcon accessible to developers of all levels. 
+              Clean syntax and predictable semantics make Vyom accessible to developers of all levels. 
               Perfect programming language for beginners and experts alike.
             </p>
           </article>
@@ -75,7 +75,7 @@ const Hero = () => {
         <div className="mt-16 text-center animate-fadeInUp animate-delay-1000">
           <div className="inline-block bg-gray-800 rounded-lg p-4 border border-gray-700 code-animate">
             <pre className="text-green-400 text-sm font-mono">
-              <code>{`// Falcon Programming Language Syntax Example
+              <code>{`// Vyom Programming Language Syntax Example
 set count = 0
 
 fn add(a: int, b: int) => int {

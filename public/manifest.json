@@ -1,6 +1,6 @@
 {
-  "name": "Falcon Programming Language",
-  "short_name": "Falcon",
+  "name": "Vyom Programming Language",
+  "short_name": "Vyom",
   "description": "A modern, lightweight programming language with hybrid execution model",
   "start_url": "/",
   "display": "standalone",
@@ -10,13 +10,13 @@
   "scope": "/",
   "icons": [
     {
-      "src": "/minfnlogo.png",
+      "src": "/vyom.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/minfnlogo.png",
+      "src": "/vyom.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

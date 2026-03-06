@@ -15,10 +15,10 @@ const ExamplesPage = () => {
     {
       id: 'hello',
       title: 'Hello World',
-      description: 'Simple "Hello, World!" program to get started with Falcon',
+      description: 'Simple "Hello, World!" program to get started with Vyom',
       difficulty: 'Beginner',
       code: `// Basic "Hello, World!" program
-show("Hello, Falcon!");
+show("Hello, Vyom!");
 
 // Simple function
 fn greet(name) {
@@ -26,13 +26,13 @@ fn greet(name) {
 }
 
 show(greet("World"));`,
-      output: `Hello, Falcon!
+      output: `Hello, Vyom!
 Hello, World!`
     },
     {
       id: 'easy-custom',
       title: 'Easy Syntax',
-      description: 'Demonstrates Falcon\'s easy-to-read custom syntax with aliases',
+      description: 'Demonstrates Vyom\'s easy-to-read custom syntax with aliases',
       difficulty: 'Beginner',
       code: `set count = 0
 
@@ -60,7 +60,7 @@ loop count < 3 {
       difficulty: 'Beginner',
       code: `// Type annotations
 set count: int = 3;
-set title: string = "Falcon";
+set title: string = "Vyom";
 const enabled: bool = true;
 
 fn add(a: int, b: int): int {
@@ -75,7 +75,7 @@ show(add(count, 9));
 show(banner(title));
 show(enabled);`,
       output: `12
-Hello, Falcon
+Hello, Vyom
 true`
     },
     {
@@ -391,9 +391,9 @@ Promise scheduled.`
   return (
     <>
       <PageSEO
-        title="Code Examples - Learn Falcon Programming Language"
-        description="Explore Falcon programming language through practical code examples. From beginner Hello World to advanced closures, error handling, and async patterns. Learn by doing with interactive examples."
-        keywords="Falcon examples, programming language examples, Falcon code samples, learn Falcon programming, programming language tutorial, code examples"
+        title="Examples - Vyom Programming Language Code Samples"
+        description="Explore Vyom programming language through practical code examples. From beginner Hello World to advanced closures, error handling, and async patterns. Learn by doing with interactive examples."
+        keywords="Vyom examples, Vyom code samples, Vyom programs, Vyom tutorial, programming examples, code samples"
         canonicalUrl="/examples"
       />
       <section id="examples" className="min-h-screen bg-gray-900 pt-24 pb-16">
@@ -401,7 +401,7 @@ Promise scheduled.`
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Code Examples</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore Falcon programming language through practical examples from beginner to advanced
+            Explore Vyom programming language through practical examples from beginner to advanced
           </p>
         </div>
 
@@ -461,9 +461,9 @@ Promise scheduled.`
 
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-orange-600/20 to-orange-500/20 rounded-xl p-8 border border-orange-500/30">
-            <h3 className="text-2xl font-bold text-white mb-4">Ready to Try Falcon?</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Ready to Try Vyom?</h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              These examples are just the beginning. Falcon offers many more features including 
+              These examples are just the beginning. Vyom offers many more features including 
               modules, classes, generators, and advanced type system features.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

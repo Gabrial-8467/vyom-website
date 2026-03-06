@@ -6,9 +6,9 @@ const InstallationPage = () => {
   return (
     <>
       <PageSEO
-        title="Installation - Download Falcon Programming Language"
-        description="Download and install Falcon programming language on Windows. Get the official installer with compiler, VM, REPL, and development tools. Start coding in minutes."
-        keywords="Falcon installation, download Falcon programming language, Falcon compiler, Falcon VM, install Falcon Windows, programming language download"
+        title="Installation - Download Vyom Programming Language"
+        description="Download and install Vyom programming language on Windows. Get the official installer with compiler, VM, REPL, and development tools. Start coding in minutes."
+        keywords="Vyom installation, download Vyom programming language, Vyom compiler, Vyom VM, install Vyom Windows, programming language download"
         canonicalUrl="/install"
       />
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-24">
@@ -18,7 +18,7 @@ const InstallationPage = () => {
             📦 Installation
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Get started with Falcon in seconds. Simply download the installer and run it.
+            Get started with Vyom in seconds. Simply download the installer and run it.
           </p>
         </div>
 
@@ -32,21 +32,21 @@ const InstallationPage = () => {
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold text-white">Windows Installer</h2>
-                  <p className="text-orange-400">Falcon v1.0.0</p>
+                  <p className="text-orange-400">Vyom v1.0.0</p>
                 </div>
               </div>
               
               <p className="text-gray-300 mb-8 text-lg">
-                Download the official Windows installer (.exe) and install Falcon with just a few clicks.
+                Download the official Windows installer (.exe) and install Vyom with just a few clicks.
               </p>
               
               <a 
-                href="/falcon-setup-x64.exe" 
+                href="/vyom-setup-x64.exe" 
                 download
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition-all duration-300 hover-lift"
               >
                 <Download className="mr-2" size={24} />
-                Download Falcon Installer
+                Download Vyom Installer
               </a>
               
               <p className="text-gray-400 text-sm mt-4">
@@ -71,7 +71,7 @@ const InstallationPage = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white mb-2">Download the Installer</h3>
-                  <p className="text-gray-300">Click the download button above to get the Falcon installer (.exe file).</p>
+                  <p className="text-gray-300">Click the download button above to get the Vyom installer (.exe file).</p>
                 </div>
               </div>
               
@@ -90,8 +90,8 @@ const InstallationPage = () => {
                   3
                 </div>
                 <div>
-                  <h3 className="text-lg font-medium text-white mb-2">Start Using Falcon</h3>
-                  <p className="text-gray-300">Launch Falcon from your Start Menu or run <code className="bg-gray-700 px-2 py-1 rounded">falcon</code> in your terminal.</p>
+                  <h3 className="text-lg font-medium text-white mb-2">Start Using Vyom</h3>
+                  <p className="text-gray-300">Launch Vyom from your Start Menu or run <code className="bg-gray-700 px-2 py-1 rounded">vyom</code> in your terminal.</p>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@ const InstallationPage = () => {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <CheckCircle className="text-green-500 mr-3" size={16} />
-                  <span className="text-gray-300">Falcon Compiler & VM</span>
+                  <span className="text-gray-300">Vyom Compiler & VM</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="text-green-500 mr-3" size={16} />
@@ -152,20 +152,20 @@ const InstallationPage = () => {
                 <h3 className="text-lg font-medium text-white mb-3">Start the REPL</h3>
                 <div className="bg-gray-900 rounded-lg p-4 border border-gray-600">
                   <pre className="text-green-400 font-mono">
-                    <code>falcon</code>
+                    <code>vyom</code>
                   </pre>
                 </div>
-                <p className="text-gray-400 text-sm mt-2">Opens the interactive Falcon development environment</p>
+                <p className="text-gray-400 text-sm mt-2">Opens the interactive Vyom development environment</p>
               </div>
               
               <div>
-                <h3 className="text-lg font-medium text-white mb-3">Run a Falcon Program</h3>
+                <h3 className="text-lg font-medium text-white mb-3">Run a Vyom Program</h3>
                 <div className="bg-gray-900 rounded-lg p-4 border border-gray-600">
                   <pre className="text-green-400 font-mono">
-                    <code>falcon program.fn</code>
+                    <code>vyom program.vn</code>
                   </pre>
                 </div>
-                <p className="text-gray-400 text-sm mt-2">Execute any .fn file with Falcon</p>
+                <p className="text-gray-400 text-sm mt-2">Execute any .vn file with Vyom</p>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ const InstallationPage = () => {
                 🚀 Ready to Start Coding?
               </h3>
               <p className="text-gray-300 mb-6">
-                Now that you have Falcon installed, explore the documentation and examples to start building amazing programs!
+                Now that you have Vyom installed, explore the documentation and examples to start building amazing programs!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="primary" size="lg" href="/docs" className="hover-lift">

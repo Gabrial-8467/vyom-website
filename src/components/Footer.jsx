@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/Gabrial-8467/falcon', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/Gabrial-8467/vyom', label: 'GitHub' },
     { icon: Mail, href: '#', label: 'Email' }
   ]
 
@@ -17,7 +17,7 @@ const Footer = () => {
   ]
 
   const resources = [
-    { name: 'GitHub Repository', href: 'https://github.com/Gabrial-8467/falcon', icon: Github },
+    { name: 'GitHub Repository', href: 'https://github.com/Gabrial-8467/vyom', icon: Github },
     { name: 'API Reference', href: '/docs', icon: BookOpen },
     { name: 'Examples', href: '/examples', icon: Code },
     { name: 'Installation', href: '/install', icon: ExternalLink }
@@ -39,18 +39,20 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 animate-fadeInUp">
             <div className="flex items-center mb-6">
               <img 
-                src="/minfnlogo.png" 
-                alt="Falcon Logo" 
+                src="/vyom.png" 
+                alt="Vyom Logo" 
                 className="h-14 w-auto" 
               />
               <div className="ml-4">
-                <h3 className="text-3xl font-bold text-gradient-animate">Falcon</h3>
-                <p className="text-orange-400 text-sm font-medium">Programming Language</p>
+                <h3 className="text-3xl font-bold text-gradient-animate">Vyom</h3>
+                <p className="text-sm text-gray-400">
+                  Vyom Programming Language Features (v1.0.0) with &hearts; by Gabrial Deora.
+                </p>
               </div>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Falcon is a modern, production-ready programming language designed to be easy to learn, with hybrid execution, and modular architecture.
+              Discover why Vyom is the perfect modern programming language for your next project. Vyom is a modern, production-ready programming language designed to be easy to learn, with hybrid execution, and modular architecture.
               <br />
               <span className="text-orange-400 font-semibold">Expressive. Hackable. Built for experiments and real projects.</span>
             </p>
@@ -119,7 +121,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-4 md:mb-0 animate-fadeInLeft">
               <p className="text-gray-400 text-sm">
-                © {currentYear} Falcon Programming Language. 
+                © {currentYear} Vyom Programming Language. 
                 <span className="text-orange-400 font-medium"> Licensed under Apache License 2.0.</span>
               </p>
               <p className="text-gray-500 text-xs mt-1">
