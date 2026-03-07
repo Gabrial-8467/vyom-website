@@ -20,7 +20,7 @@ const Hero = () => {
             A Modern Lightweight Programming Language for Developers
           </p>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8 animate-fadeInUp animate-delay-400">
-            Expressive and easy to learn syntax with hybrid execution model. Perfect for both experimental projects 
+            Expressive syntax with hybrid execution model. Perfect for both experimental projects 
             and production applications. Learn Vyom programming language with our comprehensive 
             documentation and examples.
             <br />
