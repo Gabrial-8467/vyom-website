@@ -24,13 +24,6 @@ const CommunityPage = () => {
       link: 'https://github.com/Gabrial-8467/vyom/issues',
       linkText: 'Report an Issue'
     },
-    {
-      icon: Award,
-      title: 'Spread the Word',
-      description: 'Share Vyom with your network, write blog posts, or create tutorials.',
-      link: '#',
-      linkText: 'Learn More'
-    }
   ]
 
   const communityGuidelines = [
