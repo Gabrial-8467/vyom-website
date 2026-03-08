@@ -1,4 +1,4 @@
-import { Users, MessageCircle, Github, Twitter, Mail, Heart, Star, GitBranch, Award } from 'lucide-react'
+import { Users, MessageCircle, Github, Twitter, Mail, Heart, Star, GitBranch,} from 'lucide-react'
 import PageSEO from '../components/PageSEO'
 
 const CommunityPage = () => {
