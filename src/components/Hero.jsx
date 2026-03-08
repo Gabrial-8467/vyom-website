@@ -17,14 +17,13 @@ const Hero = () => {
             Welcome to Vyom
           </h1>
           <p className="text-xl md:text-2xl text-orange-500 font-semibold mb-4 animate-fadeInUp animate-delay-300">
-            A Modern Lightweight Programming Language for Developers
+            A Modern Expressive Programming Language
           </p>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8 animate-fadeInUp animate-delay-400">
-            Expressive syntax with hybrid execution model. Perfect for both experimental projects 
-            and production applications. Learn Vyom programming language with our comprehensive 
-            documentation and examples.
+            Clean syntax with advanced pattern matching, optional type annotations, and dual execution modes. 
+            Optimized VM while maintaining full feature completeness.
             <br />
-            <span className="text-orange-500">Vyom</span> is a modern, lightweight programming language designed for simplicity and performance.
+            <span className="text-orange-500">Vyom</span> combines modern language design with high-performance execution.
           </p>
         </header>
 
@@ -42,10 +41,10 @@ const Hero = () => {
             <div className="flex items-center justify-center w-12 h-12 bg-orange-500/20 rounded-lg mb-4 mx-auto">
               <Code className="text-orange-500" size={24} />
             </div>
-            <h3 className="text-white font-semibold mb-2">Easy to Learn Programming Language</h3>
+            <h3 className="text-white font-semibold mb-2">Advanced Pattern Matching</h3>
             <p className="text-gray-300 text-sm">
-              Clean syntax and predictable semantics make Vyom accessible to developers of all levels. 
-              Perfect programming language for beginners and experts alike.
+              Powerful pattern matching with guards, bindings, and destructuring. 
+              Write expressive code with match expressions and statements.
             </p>
           </article>
 
@@ -53,10 +52,10 @@ const Hero = () => {
             <div className="flex items-center justify-center w-12 h-12 bg-orange-500/20 rounded-lg mb-4 mx-auto">
               <Zap className="text-orange-500" size={24} />
             </div>
-            <h3 className="text-white font-semibold mb-2">Hybrid Execution Model</h3>
+            <h3 className="text-white font-semibold mb-2">Optimized VM</h3>
             <p className="text-gray-300 text-sm">
-              Compiler + VM + Interpreter execution gives you bytecode speed with interpreter flexibility. 
-              Experience the best of both worlds in programming language design.
+              High-performance virtual machine with optimized bytecode execution. 
+              Experience sub-microsecond arithmetic and efficient memory management.
             </p>
           </article>
 
@@ -64,10 +63,10 @@ const Hero = () => {
             <div className="flex items-center justify-center w-12 h-12 bg-orange-500/20 rounded-lg mb-4 mx-auto">
               <Shield className="text-orange-500" size={24} />
             </div>
-            <h3 className="text-white font-semibold mb-2">Modular & Extensible Architecture</h3>
+            <h3 className="text-white font-semibold mb-2">Type Annotations</h3>
             <p className="text-gray-300 text-sm">
-              Clean compiler design with closures, loops, functions, and comprehensive runtime library. 
-              Build powerful applications with this modern programming language.
+              Optional static typing with runtime validation. 
+              Get the safety of static types with the flexibility of dynamic languages.
             </p>
           </article>
         </div>
@@ -76,20 +75,22 @@ const Hero = () => {
           <div className="inline-block bg-gray-800 rounded-lg p-4 border border-gray-700 code-animate">
             <pre className="text-green-400 text-sm font-mono">
               <code>{`// Vyom Programming Language Syntax Example
-set count = 0
+const name: string = "Vyom"
+var count: int = 0
 
-fn add(a: int, b: int) => int {
-    give a + b
+fn greet(name: string): string {
+    give "Hello, " + name + "!"
 }
 
-when count == 0 {
-    say "start"
+fn analyze(value) {
+    give match value {
+        case 0: "zero";
+        case n when n > 0: "positive";
+        case _: "other";
+    };
 }
 
-loop count < 3 {
-    say add(count, 2)
-    count = count + 1
-}`}</code>
+show(analyze(count))`}</code>
             </pre>
           </div>
         </div>

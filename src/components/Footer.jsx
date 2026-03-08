@@ -19,8 +19,8 @@ const Footer = () => {
   const resources = [
     { name: 'GitHub Repository', href: 'https://github.com/Gabrial-8467/vyom', icon: Github },
     { name: 'API Reference', href: '/docs', icon: BookOpen },
-    { name: 'Examples', href: '/examples', icon: Code },
-    { name: 'Installation', href: '/install', icon: ExternalLink }
+    { name: 'Pattern Matching Examples', href: '/examples', icon: Code },
+    { name: 'Installation Guide', href: '/install', icon: ExternalLink }
   ]
 
   return (
@@ -52,9 +52,10 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Discover why Vyom is the perfect modern programming language for your next project. Vyom is a modern, production-ready programming language designed to be easy to learn, with hybrid execution, and modular architecture.
+              Discover why Vyom is the perfect modern programming language for your next project. 
+              Experience advanced pattern matching, optional type annotations, and faster VM performance.
               <br />
-              <span className="text-orange-400 font-semibold">Expressive. Hackable. Built for experiments and real projects.</span>
+              <span className="text-orange-400 font-semibold">Expressive. Powerful. Production-ready.</span>
             </p>
             
             {/* Social Links */}
@@ -125,11 +126,11 @@ const Footer = () => {
                 <span className="text-orange-400 font-medium"> Licensed under Apache License 2.0.</span>
               </p>
               <p className="text-gray-500 text-xs mt-1">
-                Built with ❤️ for the developer community
+                Built with &hearts; for the developer community
               </p>
             </div>
             
-            <div className="flex items-center space-x-6 animate-fadeInRight">
+            <div className="flex items-center text-gray-400 text-sm">
               <div className="flex items-center text-gray-400 text-sm">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
                 <span>v1.0.0</span>
