@@ -1,4 +1,4 @@
-import { Github, Twitter, Mail, ExternalLink, Users, BookOpen, Code } from 'lucide-react'
+import { Github, Twitter, Mail, ExternalLink, Users, BookOpen, Code, MessageCircle } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -19,7 +19,7 @@ const Footer = () => {
   const resources = [
     { name: 'GitHub Repository', href: 'https://github.com/Gabrial-8467/vyom', icon: Github },
     { name: 'API Reference', href: '/docs', icon: BookOpen },
-    { name: 'Pattern Matching Examples', href: '/examples', icon: Code },
+    { name: 'Community', href: '/community', icon: MessageCircle },
     { name: 'Installation Guide', href: '/install', icon: ExternalLink }
   ]
 

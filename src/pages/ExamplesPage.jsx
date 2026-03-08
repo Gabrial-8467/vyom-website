@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Copy, Check, Play, Code } from 'lucide-react'
+import { Copy, Check, Code } from 'lucide-react'
 import PageSEO from '../components/PageSEO'
 
 const ExamplesPage = () => {
@@ -256,16 +256,6 @@ show("1! =", factorial(1));`,
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-sm font-medium text-gray-400">Output</h4>
-                      <button
-                        onClick={() => {
-                          // In a real implementation, this would run the code
-                          alert('Code execution would be implemented here')
-                        }}
-                        className="flex items-center gap-2 px-3 py-1 text-xs bg-orange-600 hover:bg-orange-700 text-white rounded-md transition-colors"
-                      >
-                        <Play size={14} />
-                        Run
-                      </button>
                     </div>
                     <div className="bg-gray-900 rounded-lg p-4 border border-gray-600">
                       <pre className="text-blue-400 text-sm font-mono">

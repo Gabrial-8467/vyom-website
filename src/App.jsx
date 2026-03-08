@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage'
 import DocumentationPage from './pages/DocumentationPage'
 import ExamplesPage from './pages/ExamplesPage'
 import InstallationPage from './pages/InstallationPage'
+import CommunityPage from './pages/CommunityPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route path="/docs" element={<DocumentationPage />} />
               <Route path="/examples" element={<ExamplesPage />} />
               <Route path="/install" element={<InstallationPage />} />
+              <Route path="/community" element={<CommunityPage />} />
             </Routes>
           </main>
           <Footer />

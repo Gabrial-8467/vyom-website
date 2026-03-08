@@ -456,17 +456,6 @@ const name: string = 42;  // TypeCheckError`
   }
 ]
 
-function DocumentationPage() {
-  const [expandedSections, setExpandedSections] = React.useState([]);
-
-  const toggleSection = (sectionId) => {
-    if (expandedSections.includes(sectionId)) {
-      setExpandedSections(expandedSections.filter((id) => id !== sectionId));
-    } else {
-      setExpandedSections([...expandedSections, sectionId]);
-    }
-  };
-
   return (
     <>
       <PageSEO
@@ -528,7 +517,6 @@ function DocumentationPage() {
     </section>
     </>
   )
-}
 }
 
 export default DocumentationPage
