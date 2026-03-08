@@ -83,7 +83,8 @@ const CommunityPage = () => {
                   <p className="text-gray-300 mb-6">{way.description}</p>
                   <a
                     href={way.link}
-                    className="inline-flex items-center text-orange-400 hover:text-orange-300 font-medium transition-colors"
+                    className="inline-flex items-center text-orange-400 hover:text-orange-300 font-medium transition-colors" 
+                target="_blank"
                   >
                     {way.linkText}
                     <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
